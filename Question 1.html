@@ -136,41 +136,41 @@
 <script>
 // Array of questions with options and images
 var questions = [
-  { q: "It is a measurement used to analyze a data set by dividing it into four, ten or even a hundred equal parts.",
+  { q: "What does a percentile rank represent in a dataset?",
 		options: [
-		"Measures of Central Tendency", 
-		"Measures of Position", 
-		"Measures of Dispersion", 
-		"Measures of Variability"],
-	a: "Measures of Position"},
-  { q: "It is a division of a distribution into four equal parts.",
+		"The percentage of data values that are below a specific value.", 
+		"The number of data values that are above a specific value.", 
+		"The sum of all data values.", 
+		"The average of all data values."],
+	a: "The percentage of data values that are below a specific value."},
+  { q: "If a student's percentile rank in a test is 85, it means that the student scored better than what percentage of the test takers?",
 		options: [
-		"Quartiles", 
-		"Percentiles", 
-		"Quantiles", 
-		"Deciles"],
-	a: "Quartiles"},
-  { q: "It is a division of a distribution into a hundred equal parts.",
+		"85% of the test takers.", 
+		"15% of the test takers.", 
+		"50% of the test takers.", 
+		"100% of the test takers."],
+	a: "85% of the test takers."},
+  { q: "In a distribution, which of the following represents the 50th percentile?",
 		options: [
-		"Deciles", 
-		"Percentiles", 
-		"Quantiles", 
-		"Deciles"],
-	a: "Percentiles"},
-  { q: "It is a division of a distribution into ten equal parts.",
+		"The median", 
+		"The mean", 
+		"The mode", 
+		"The range"],
+	a: "The median"},
+  { q: "A student's percentile rank is 25 in a class of 100 students. How would you describe this student's performance?",
 		options: [
-		"Deciles", 
-		"Percentiles", 
-		"Quartiles", 
-		"Quantiles"],
-	a: "Deciles"},
-  { q: "It is a process when the location is not exactly a whole number.",
+		"The student performed better than 25% of the class.", 
+		"The student performed better than 75% of the class.", 
+		"The student performed exactly at the class average.", 
+		"The student performed better than the entire class."],
+	a: "The student performed better than 25% of the class."},
+  { q: "If the 40th percentile of a dataset is 20, what does this indicate?",
 		options: [
-		"Mendenhall Method", 
-		"Sincich Method", 
-		"Interpolation Method", 
-		"Midpoint Location Method"],
-	a: "Interpolation Method"} ];
+		"40% of the data points are less than 20.", 
+		"40% of the data points are equal to 20.", 
+		"60% of the data points are greater than 20.", 
+		"20 is the average of the data points."],
+	a: "40% of the data points are equal to 20."} ];
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -239,7 +239,7 @@ window.onload = displayQuestions;
 <div class="container-box">
   <a href="index.html" class="home-btn">Home</a>
 <div class="container">
-  <h1>Quiz on Measures of Position</h1>
+  <h1>Easy round of Percentile Rank</h1>
   <div id="quiz"></div>
   <div id="feedback"></div>
 </div>

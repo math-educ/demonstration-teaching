@@ -136,41 +136,41 @@
 <script>
 // Array of questions with options and images
 var questions = [
-  { q: "How many percent are there in the left side of the third quartile?",
+  { q: "Which of the following is a correct way to interpret a 40th percentile rank?",
 		options: [
-		"25%", 
-		"50%", 
-		"75%", 
-		"80%"],
-	a: "75%"},
-  { q: "Which is NOT an equivalent of the second quartile?",
+		"40% of the data values are above this value.", 
+		"40% of the data values are below this value.", 
+		"The data value is 40% of the total sum of all data values.", 
+		"The data value is 40% of the median."],
+	a: "40% of the data values are below this value."},
+  { q: "If a student's score is at the 70th percentile, how would you describe the student's performance relative to their peers?",
 		options: [
-		"Median of the set", 
-		"Lower Quartile", 
-		"Middle Quartile", 
-		"Decile 5"],
-	a: "Lower Quartile"},
-  { q: "What is the equivalent of the 25th percentile in quartile?",
+		"The student performed better than 70% of the class.", 
+		"The student performed worse than 70% of the class.", 
+		"The student scored exactly 70% on the test.", 
+		"The student is in the 70th position when ranked by score."],
+	a: "The student performed better than 70% of the class."},
+  { q: "In a dataset of 100 numbers, what is the 25th percentile?",
 		options: [
-		"First Quartile", 
-		"Second Quartile", 
-		"Third Quartile", 
-		"None of these"],
-	a: "First Quartile"},
-  { q: "What is the passing score of a 50 items test??",
+		"The number that is higher than 25% of the data.", 
+		"The number that is lower than 25% of the data. ", 
+		"The number that is exactly 25.", 
+		"The average of the first 25 numbers."],
+	a: "The number that is lower than 25% of the data. "},
+  { q: "What is the median of a dataset in terms of percentile rank?",
 		options: [
-		"36", 
-		"37", 
-		"38", 
-		"39"],
-	a: "38"},
-  { q: "Convert Q3 into percentile.",
+		"The 50th percentile", 
+		"The 25th percentile", 
+		"The 75th percentile", 
+		"The 100th percentile"],
+	a: "The 50th percentile"},
+  { q: "When calculating the percentile rank for a score in a class of 60 students, and the score is higher than 45 other students, what is the approximate percentile rank of the score?",
 		options: [
-		"P75", 
-		"P60", 
-		"P45", 
-		"P50"],
-	a: "P75"} ];
+		"25th percentile", 
+		"75th percentile", 
+		"50th percentile", 
+		"100th percentile"],
+	a: "75th percentile"} ];
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -239,7 +239,7 @@ window.onload = displayQuestions;
 <div class="container-box">
   <a href="index.html" class="home-btn">Home</a>
 <div class="container">
-  <h1>Quiz on Measures of Position</h1>
+  <h1>Avereage Round on Percentile Ranks</h1>
   <div id="quiz"></div>
   <div id="feedback"></div>
 </div>
